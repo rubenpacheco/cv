@@ -172,4 +172,4 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 
-export default Navbar
+export default barraNavegacion;

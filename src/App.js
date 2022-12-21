@@ -1,5 +1,5 @@
 import { createMuiTheme, makeStyles, MuiThemeProvider } from "@material-ui/core";
-import Navbar from "./components/Navbar";
+import barraNavegacion from "./components/barraNavegacion";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import MyWork from "./components/MyWork";
@@ -17,11 +17,11 @@ function App() {
   return (
     <MuiThemeProvider theme={theme}>
     <div className={classes.root}>
-      <Navbar />
-      <About title="About Me" id="about" dark={true }/>
-      <Skills title="My Coding Journey" id="skills" dark={false }/>
-      <MyWork title="My Work" id="work" dark={true }/>
-      <Contact title="Get in touch" id="contact" dark={false }/>
+      <barraNavegacion />
+      <About title="Acerca de mi" id="about" dark={true }/>
+      <Skills title="Mi Viaje de Programacion" id="skills" dark={false }/>
+      <MyWork title="Mi Trabajo" id="work" dark={true }/>
+      <Contact title="Ponerse" id="contact" dark={false }/>
     </div>
     </MuiThemeProvider>
   );
