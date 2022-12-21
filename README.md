@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+este proyecto se logro con la ayuda  profesor Ezequiel 
+https://www.youtube.com/watch?v=-7UnSA3w7hU
+
+# Getting Started with Create React     
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
