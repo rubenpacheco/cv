@@ -1,10 +1,11 @@
 import { createMuiTheme, makeStyles, MuiThemeProvider } from "@material-ui/core";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import MyWork from "./components/MyWork";
-import Contact from "./components/Contact";
+import Barra from "./components/Barra";
+import Acerca from "./components/Acerca";//Acerca
+import Habilidad from "./components/Habilidad";//habilidades
+import Mitrabajo from "./components/Mitrabajo";//Mitrabajo
+import Contactame from "./components/Contactame";//contactame
 import { purple } from "@material-ui/core/colors";
+import './components/styles/estilo.css'
 
 const theme = createMuiTheme( {
   palette:{
@@ -17,11 +18,11 @@ function App() {
   return (
     <MuiThemeProvider theme={theme}>
     <div className={classes.root}>
-      <Navbar />
-      <About title="Acerca de mi" id="about" dark={true }/>
-      <Skills title="Mi Viaje de Programacion" id="skills" dark={false }/>
-      <MyWork title="Mi Trabajo" id="work" dark={true }/>
-      <Contact title="" id="contact" dark={false }/>
+      <Barra />
+      <Acerca title="Acerca de mi" id="Acerca" dark={true }/>
+      <Habilidad title="Mi Viaje de Programacion" id="Habilidad" dark={false }/>
+      <Mitrabajo title="Mi Trabajo" id="Mitrabajo" dark={true }/>
+      <Contactame title="" id="Contactame" dark={false }/>
     </div>
     </MuiThemeProvider>
   );

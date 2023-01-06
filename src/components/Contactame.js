@@ -3,7 +3,7 @@ import { Button, makeStyles, Paper, Radio, TextField, Typography } from '@materi
 import {  purple } from '@material-ui/core/colors';
 
 
-const Contact = ({title, dark, id}) => {
+const Contactame = ({title, dark, id}) => {
   const classes = useStyles();
   const [value, setValue] = useState("Say Hi")
 
@@ -107,4 +107,4 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-export default Contact
+export default Contactame

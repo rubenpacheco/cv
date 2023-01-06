@@ -11,28 +11,28 @@ import CancelIcon from "@material-ui/icons/Cancel"
 
 
 
-const Navbar = () => {
+const Barra = () => {
   const classes = useStyles();
   const [open, setOpen] = useState(false)
   const links = [
     {
-      id: "about",
-      text: "About me",
+      id: "Acerca",
+      text: "Acerca de mi ",//about
       icon: <InfoTwoToneIcon fontSize="large"/>
     },
     {
-      id:"skills",
-      text:"Skills",
+      id:"Habilidad",
+      text:"Habilidad",
       icon: <EmojiObjectsTwoToneIcon fontSize="large" className={classes.light}/>
     },
     {
-      id:"work",
-      text:"My Work",
+      id:"Mitrabajo",
+      text:"Mi trabajo",
       icon: <BuildTwoToneIcon fontSize="large"/>
     },
     {
-      id:"contact",
-      text:"Get in touch",
+      id:"Contactame",
+      text:"Contactames",
       icon: <ContactMailTwoToneIcon fontSize="large"/>
     },
   
@@ -172,4 +172,4 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 
-export default Navbar
+export default Barra

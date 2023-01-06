@@ -4,7 +4,7 @@ import ruben from "../images/ruben.png"
 import TypeWriterEffect from "react-typewriter-effect"
 import pdf from "../images/CV Ruben Dario Pacheco Guevara.pdf"
 
-const About = ({title, dark, id}) => {
+const Acerca = ({title, dark, id}) => {
   const classes = useStyles();
   return (
     <div className={ `${classes.section} ${dark && classes.sectiondark}`} >
@@ -111,4 +111,4 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 
-export default About  
+export default Acerca  
