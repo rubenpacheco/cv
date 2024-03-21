@@ -3,7 +3,7 @@ import Barra from "./components/Barra";
 import Acerca from "./components/Acerca";//Acerca
 import Habilidad from "./components/Habilidad";//habilidades
 import Mitrabajo from "./components/Mitrabajo";//Mitrabajo
-/*import Contactame from "./components/Contactame";//contactame*/
+/*import Contactame from "./components/Contactame";//contactame//*<Contactame title="" id="Contactame" dark={false }/>*/
 import { purple } from "@material-ui/core/colors";
 import './components/styles/estilo.css'
 
@@ -22,7 +22,7 @@ function App() {
       <Acerca title="Acerca de mi" id="Acerca" dark={true }/>
       <Habilidad title="Mi Viaje de Programacion" id="Habilidad" dark={false }/>
       <Mitrabajo title="Mi Trabajo" id="Mitrabajo" dark={true }/>
-      <Contactame title="" id="Contactame" dark={false }/>
+     
     </div>
     </MuiThemeProvider>
   );

@@ -4,7 +4,7 @@ import { Link, animateScroll as scroll } from 'react-scroll'
 import  InfoTwoToneIcon  from '@material-ui/icons/InfoTwoTone'
 import EmojiObjectsTwoToneIcon from '@material-ui/icons/EmojiObjectsTwoTone'
 import BuildTwoToneIcon from '@material-ui/icons/BuildTwoTone'
-import ContactMailTwoToneIcon from '@material-ui/icons/ContactMailTwoTone'
+//import ContactMailTwoToneIcon from '@material-ui/icons/ContactMailTwoTone'
 import MenuIcon from "@material-ui/icons/Menu"
 import { useState } from "react"
 import CancelIcon from "@material-ui/icons/Cancel"
@@ -30,11 +30,11 @@ const Barra = () => {
       text:"Mi trabajo",
       icon: <BuildTwoToneIcon fontSize="large"/>
     },
-    {
+  /*  {
       id:"Contactame",
       text:"Contactames",
       icon: <ContactMailTwoToneIcon fontSize="large"/>
-    },
+    },*/
   
   ]
 
