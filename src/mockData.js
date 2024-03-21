@@ -1,6 +1,6 @@
 import rickmonty from "./images/rick morty.png"
 import ClubAdolfo from "./images/ClubAdolfo.png"
-
+//3parte/
 const mockData = [
     {
         title: "Rick-Morty",
